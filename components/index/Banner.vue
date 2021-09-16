@@ -23,7 +23,7 @@
 export default {}
 </script>
 
-<style lang="postcss" scoped>
+<style lang="scss" scoped>
 header {
   background: linear-gradient(to bottom, rgba(51, 51, 51, 0), #ffffff),
     url('~/assets/index/BannerBackground.jpg');
