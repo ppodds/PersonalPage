@@ -1,29 +1,18 @@
 <template>
-  <div class="md:flex flex-wrap max-w-5xl">
-    <div
-      class="
-        w-1/5
-        border-2 border-gray-300
-        flex flex-col
-        items-center
-        hover:border-green-500
-        duration-300
-      "
+  <div class="md:flex flex-wrap w-full">
+    <item
+      :data="skill"
+      blockSize="small"
       v-for="skill of skills"
       :key="skill.name"
-    >
-      <div class="w-1/2">
-        <img :src="skill.icon" />
-      </div>
-      <div class="text-2xl">
-        {{ skill.name }}
-      </div>
-    </div>
+    />
   </div>
 </template>
 
 <script lang="ts">
+import Item from './Item.vue'
 export default {
+  components: { Item },
   data() {
     return {
       skills: [
