@@ -25,6 +25,7 @@ export default {}
 
 <style lang="scss" scoped>
 header {
+  // http://bg-patterns.com/?p=1586
   background: linear-gradient(to bottom, rgba(51, 51, 51, 0), #ffffff),
     url('~/assets/index/BannerBackground.jpg');
 }
