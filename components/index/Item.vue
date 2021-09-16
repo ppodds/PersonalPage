@@ -3,6 +3,7 @@
     :href="data.linkUrl"
     :class="{
       'w-1/5': blockSize === 'small',
+      'w-1/4': blockSize === 'medium',
       'w-1/2': blockSize === 'big',
       'border-2': true,
       'border-gray-300': true,
