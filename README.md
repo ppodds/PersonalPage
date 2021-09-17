@@ -1,5 +1,11 @@
 # PersonalPage
 
+A Personal page.
+
+## Introduce
+
+I deploy this page on my own server to introduce myself, and practice tailwind css and Vue.js.
+
 ## Build Setup
 
 ```bash
