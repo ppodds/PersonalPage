@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex w-full flex justify-between">
+  <div class="flex w-full justify-between">
     <a
       :href="contact.linkUrl"
       class="

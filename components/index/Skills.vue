@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex flex-wrap w-full">
+  <div class="flex flex-wrap w-full">
     <item
       :data="skill"
       blockSize="small"

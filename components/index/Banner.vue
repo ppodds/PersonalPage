@@ -1,6 +1,6 @@
 <template>
   <header class="h-screen flex flex-auto justify-center items-center">
-    <figure class="md:flex rounded-3xl shadow-2xl bg-white">
+    <figure class="flex rounded-3xl shadow-2xl bg-white">
       <div class="m-12 flex flex-col items-center justify-center">
         <img class="h-64 w-64" src="~/assets/index/avatar.png" />
         <figcaption class="flex flex-col items-center justify-center">
