@@ -1,9 +1,10 @@
 <template>
-  <div class="flex w-full justify-between">
+  <div class="flex w-full flex-col md:flex-row justify-between">
     <a
       :href="contact.linkUrl"
       class="
-        w-1/4
+        w-full
+        md:w-1/4
         border-2 border-gray-300
         flex
         items-center
@@ -15,10 +16,10 @@
       v-for="contact of contacts"
       :key="contact.name"
     >
-      <div class="w-1/4">
+      <div class="w-1/4 md:w-1/4">
         <img :src="contact.icon" />
       </div>
-      <div class="text-2xl ml-5">
+      <div class="text-xl md:text-2xl ml-5">
         {{ contact.name }}
       </div>
     </a>

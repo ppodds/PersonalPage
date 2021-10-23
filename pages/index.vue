@@ -2,7 +2,7 @@
   <div>
     <banner />
     <main class="flex flex-col items-center justify-center">
-      <div class="max-w-5xl">
+      <div class="max-w-xs md:max-w-5xl">
         <info-block id="skills" title="技能"> <skills /></info-block>
         <info-block id="projects" title="專案"> <projects /></info-block>
         <info-block id="experience" title="經歷"> <experience /> </info-block>

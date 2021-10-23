@@ -2,9 +2,9 @@
   <a
     :href="data.linkUrl"
     :class="{
-      'w-1/5': blockSize === 'small',
-      'w-1/4': blockSize === 'medium',
-      'w-1/2': blockSize === 'big',
+      'w-1/2 md:w-1/5': blockSize === 'small',
+      'w-1/2 md:w-1/4': blockSize === 'medium',
+      'w-full md:w-1/2': blockSize === 'big',
       'border-2': true,
       'border-gray-300': true,
       flex: true,
@@ -18,10 +18,12 @@
     <div class="w-full">
       <img :src="data.icon" />
     </div>
-    <div class="text-2xl">
+    <div class="text-sm md:text-2xl">
       {{ data.name }}
     </div>
-    <div v-if="data.subtitle" class="text-xl">{{ data.subtitle }}</div>
+    <div v-if="data.subtitle" class="text-xs md:text-xl">
+      {{ data.subtitle }}
+    </div>
   </a>
 </template>
 
