@@ -20,7 +20,7 @@ export default {
           name: 'GDSC NCU',
           icon: require('../../assets/index/gd_dsc_lockup_vertical_color.png'),
           subtitle: '2021 Core Team',
-          linkUrl: 'https://www.facebook.com/DSCNCU',
+          linkUrl: 'https://www.facebook.com/GDSCNCU',
         },
         {
           name: 'CYIC 22nd',
