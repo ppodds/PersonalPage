@@ -3,11 +3,7 @@ export default {
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'ppodds',
-    meta: [{ name: 'format-detection', content: 'telephone=no' }],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-  },
+  head: {},
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~assets/util/global.css'],
@@ -43,9 +39,12 @@ export default {
       lang: 'zh-Hant-TW',
     },
     meta: {
+      charset: 'utf-8',
       name: 'ppodds',
       author: 'ppodds',
       description: 'A persional page of ppodds',
+      lang: 'zh-Hant-TW',
+      ogHost: 'https://ppodds.website/',
     },
   },
 
