@@ -8,12 +8,8 @@
   </section>
 </template>
 
-<script lang="ts">
-export default {
-  props: {
-    title: String,
-  },
-}
+<script setup lang="ts">
+defineProps<{
+  title: string;
+}>();
 </script>
-
-<style></style>

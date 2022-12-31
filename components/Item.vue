@@ -15,8 +15,8 @@
       'p-3': true,
     }"
   >
-    <div class="w-full">
-      <img :src="data.icon" />
+    <div class="w-full h-fit">
+      <img class="h-64 mx-auto" :src="data.icon" />
     </div>
     <div class="text-sm md:text-2xl">
       {{ data.name }}
@@ -27,13 +27,9 @@
   </a>
 </template>
 
-<script>
-export default {
-  props: {
-    blockSize: String,
-    data: { name: String, icon: Object, subtitle: String, linkUrl: String },
-  },
-}
+<script setup lang="ts">
+defineProps<{
+  blockSize: string;
+  data: { name: string; icon: any; subtitle?: string; linkUrl?: string };
+}>();
 </script>
-
-<style></style>
