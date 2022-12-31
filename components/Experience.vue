@@ -10,19 +10,16 @@
 </template>
 
 <script setup lang="ts">
-import gdsc from "~/assets/index/gd_dsc_lockup_vertical_color.png";
-import cyic from "~/assets/index/CYIC.jpg";
-
 const experiences = ref([
   {
     name: "GDSC NCU",
-    icon: gdsc,
+    icon: "gd_dsc_lockup_vertical_color.png",
     subtitle: "2021 Core Team",
     linkUrl: "https://www.facebook.com/GDSCNCU",
   },
   {
     name: "CYIC 22nd",
-    icon: cyic,
+    icon: "CYIC.jpg",
     subtitle: "教學長兼任公關活動",
     linkUrl: "https://www.facebook.com/ILOVECYIC",
   },

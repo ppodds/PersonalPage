@@ -17,10 +17,6 @@
 </template>
 
 <script setup lang="ts">
-import envelopeSolid from "~/assets/index/envelope-solid.svg";
-import telegramBrands from "~/assets/index/telegram-brands.svg";
-import facebookSquareBrands from "~/assets/index/facebook-square-brands.svg";
-
 const contacts = ref([
   {
     name: "GitHub",
@@ -29,17 +25,17 @@ const contacts = ref([
   },
   {
     name: "Email",
-    icon: envelopeSolid,
+    icon: "envelope-solid.svg",
     linkUrl: "mailto:oscar20020629@gmail.com",
   },
   {
     name: "Telegram",
-    icon: telegramBrands,
+    icon: "telegram-brands.svg",
     linkUrl: "https://t.me/ppodds",
   },
   {
     name: "Facebook",
-    icon: facebookSquareBrands,
+    icon: "facebook-square-brands.svg",
     linkUrl: "https://facebook.com/ppodds",
   },
 ]);
