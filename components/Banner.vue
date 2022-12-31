@@ -2,7 +2,7 @@
   <header class="h-screen flex flex-auto justify-center items-center">
     <figure class="flex rounded-3xl shadow-2xl bg-white">
       <div class="m-12 flex flex-col items-center justify-center">
-        <img class="h-64 w-64 rounded-full" src="avatar.png" />
+        <img class="h-64 w-64 rounded-full" src="~/public/avatar.png" />
         <figcaption class="flex flex-col items-center justify-center">
           <h1 class="text-5xl font-bold">ppodds</h1>
           <blockquote>
@@ -23,6 +23,6 @@
 header {
   /*  http://bg-patterns.com/?p=1586 */
   background: linear-gradient(to bottom, rgba(51, 51, 51, 0), #ffffff),
-    url("BannerBackground.jpg");
+    url("~/public/BannerBackground.jpg");
 }
 </style>
