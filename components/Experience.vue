@@ -12,6 +12,12 @@
 <script setup lang="ts">
 const experiences = ref([
   {
+    name: "NCtfU",
+    icon: "nctfu.jpg",
+    subtitle: "2022 副社長",
+    linkUrl: "https://www.facebook.com/nctfu",
+  },
+  {
     name: "GDSC NCU",
     icon: "gd_dsc_lockup_vertical_color.png",
     subtitle: "2021 Core Team",
