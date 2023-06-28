@@ -99,5 +99,17 @@ const skills = ref([
     name: "Docker",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   },
+  {
+    name: "Rust",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
+  },
+  {
+    name: "kubernetes",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+  },
+  {
+    name: "k3s",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/k3s/k3s-original.svg"
+  }
 ]);
 </script>
