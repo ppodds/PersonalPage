@@ -2,22 +2,14 @@
 
 A Personal page.
 
-## Introduce
-
-I deploy this page on my own server to introduce myself, and practice tailwind css and Vue.js.
-
 ## Build Setup
 
 ```bash
 # install dependencies
-$ npm install
+$ pnpm install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
+$ pnpm dev
 
 # generate static project
 $ npm run generate
