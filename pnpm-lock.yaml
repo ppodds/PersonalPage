@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^4.2.1
     version: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.43.0)(prettier@2.8.8)
   eslint-plugin-vue:
-    specifier: ^9.15.1
-    version: 9.15.1(eslint@8.43.0)
+    specifier: ^10.0.0
+    version: 10.0.0(eslint@8.43.0)(vue-eslint-parser@9.3.1)
   prettier:
     specifier: ^2.8.8
     version: 2.8.8
@@ -887,7 +887,7 @@ packages:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.5.3
+      semver: 7.7.1
       tar: 6.1.15
     transitivePeerDependencies:
       - encoding
@@ -1387,7 +1387,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.3
+      semver: 7.7.1
       tsutils: 3.21.0(typescript@5.1.5)
       typescript: 5.1.5
     transitivePeerDependencies:
@@ -1408,7 +1408,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.60.1(typescript@5.1.5)
       eslint: 8.43.0
       eslint-scope: 5.1.1
-      semver: 7.5.3
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1767,6 +1767,7 @@ packages:
 
   /acorn-import-assertions@1.9.0(acorn@8.9.0):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -2384,7 +2385,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.24)
       postcss-value-parser: 4.2.0
       schema-utils: 3.3.0
-      semver: 7.5.3
+      semver: 7.7.1
       webpack: 5.88.0
     dev: true
 
@@ -2828,22 +2829,21 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-vue@9.15.1(eslint@8.43.0):
-    resolution: {integrity: sha512-CJE/oZOslvmAR9hf8SClTdQ9JLweghT6JCBQNrT2Iel1uVw0W0OLJxzvPd6CxmABKCvLrtyDnqGV37O7KQv6+A==}
-    engines: {node: ^14.17.0 || >=16.0.0}
+  /eslint-plugin-vue@10.0.0(eslint@8.43.0)(vue-eslint-parser@9.3.1):
+    resolution: {integrity: sha512-XKckedtajqwmaX6u1VnECmZ6xJt+YvlmMzBPZd+/sI3ub2lpYZyFnsyWo7c3nMOQKJQudeyk1lw/JxdgeKT64w==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
-      eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
+      eslint: ^8.57.0 || ^9.0.0
+      vue-eslint-parser: ^10.0.0
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.43.0)
       eslint: 8.43.0
       natural-compare: 1.4.0
       nth-check: 2.1.1
-      postcss-selector-parser: 6.0.13
-      semver: 7.5.3
+      postcss-selector-parser: 6.1.2
+      semver: 7.7.1
       vue-eslint-parser: 9.3.1(eslint@8.43.0)
       xml-name-validator: 4.0.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /eslint-scope@5.1.1:
@@ -4229,7 +4229,7 @@ packages:
       rollup: 3.25.3
       rollup-plugin-visualizer: 5.9.2(rollup@3.25.3)
       scule: 1.0.0
-      semver: 7.5.3
+      semver: 7.7.1
       serve-placeholder: 2.0.1
       serve-static: 1.15.0
       source-map-support: 0.5.21
@@ -4691,7 +4691,7 @@ packages:
       postcss: ^8.2.2
     dependencies:
       postcss: 8.4.24
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.1.2
       postcss-value-parser: 4.2.0
     dev: false
 
@@ -4835,7 +4835,7 @@ packages:
       loader-utils: 2.0.4
       postcss: 8.4.24
       schema-utils: 3.3.0
-      semver: 7.5.3
+      semver: 7.7.1
       webpack: 5.88.0
     dev: true
 
@@ -4860,7 +4860,7 @@ packages:
       caniuse-api: 3.0.0
       cssnano-utils: 4.0.0(postcss@8.4.24)
       postcss: 8.4.24
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.1.2
     dev: false
 
   /postcss-minify-font-values@6.0.0(postcss@8.4.24):
@@ -4904,7 +4904,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       postcss: 8.4.24
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.1.2
     dev: false
 
   /postcss-modules-extract-imports@3.0.0(postcss@8.4.24):
@@ -4924,7 +4924,7 @@ packages:
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.24)
       postcss: 8.4.24
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.1.2
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -4935,7 +4935,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       postcss: 8.4.24
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.1.2
     dev: true
 
   /postcss-modules-values@4.0.0(postcss@8.4.24):
@@ -4955,7 +4955,7 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.24
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.1.2
     dev: true
 
   /postcss-nesting@11.3.0(postcss@8.4.24):
@@ -5097,6 +5097,14 @@ packages:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
+    dev: true
+
+  /postcss-selector-parser@6.1.2:
+    resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
+    engines: {node: '>=4'}
+    dependencies:
+      cssesc: 3.0.0
+      util-deprecate: 1.0.2
 
   /postcss-svgo@6.0.0(postcss@8.4.24):
     resolution: {integrity: sha512-r9zvj/wGAoAIodn84dR/kFqwhINp5YsJkLoujybWG59grR/IHx+uQ2Zo+IcOwM0jskfYX3R0mo+1Kip1VSNcvw==}
@@ -5116,7 +5124,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       postcss: 8.4.24
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.1.2
     dev: false
 
   /postcss-url@10.1.3(postcss@8.4.24):
@@ -5391,6 +5399,11 @@ packages:
     dependencies:
       lru-cache: 6.0.0
 
+  /semver@7.7.1:
+    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   /send@0.18.0:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
     engines: {node: '>= 0.8.0'}
@@ -5570,7 +5583,7 @@ packages:
     dependencies:
       browserslist: 4.21.9
       postcss: 8.4.24
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.1.2
     dev: false
 
   /sucrase@3.32.0:
@@ -6104,7 +6117,7 @@ packages:
       lodash.debounce: 4.0.8
       lodash.pick: 4.4.0
       npm-run-path: 4.0.1
-      semver: 7.5.3
+      semver: 7.7.1
       strip-ansi: 6.0.1
       tiny-invariant: 1.3.1
       typescript: 5.1.5
@@ -6158,7 +6171,7 @@ packages:
     engines: {vscode: ^1.52.0}
     dependencies:
       minimatch: 3.1.2
-      semver: 7.5.3
+      semver: 7.7.1
       vscode-languageserver-protocol: 3.16.0
     dev: false
 
