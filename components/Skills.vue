@@ -69,7 +69,7 @@ const skills = ref([
   },
   {
     name: "tailwindcss",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
   },
   {
     name: "Bootstrap 4",
@@ -81,11 +81,11 @@ const skills = ref([
   },
   {
     name: "nest.js",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
   },
   {
     name: "Laravel",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
   },
   {
     name: "Flutter",
@@ -101,7 +101,7 @@ const skills = ref([
   },
   {
     name: "Rust",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg"
   },
   {
     name: "kubernetes",

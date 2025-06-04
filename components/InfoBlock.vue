@@ -1,9 +1,9 @@
 <template>
   <section>
     <h2 class="text-4xl font-bold text-center m-4">{{ title }}</h2>
-    <hr />
+    <hr >
     <div class="flex justify-center m-4">
-      <slot> </slot>
+      <slot/>
     </div>
   </section>
 </template>

@@ -7,7 +7,7 @@
       class="w-full md:w-1/4 border-2 border-gray-300 flex items-center hover:border-green-500 duration-300 p-3 m-1"
     >
       <div class="w-1/4 md:w-1/4">
-        <img :src="contact.icon" />
+        <img :src="contact.icon" >
       </div>
       <div class="text-xl md:text-2xl ml-5">
         {{ contact.name }}

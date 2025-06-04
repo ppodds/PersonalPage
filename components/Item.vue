@@ -16,7 +16,7 @@
     }"
   >
     <div class="w-full h-fit">
-      <img class="h-64 mx-auto" :src="data.icon" />
+      <img class="h-64 mx-auto" :src="data.icon" >
     </div>
     <div class="text-sm md:text-2xl">
       {{ data.name }}
