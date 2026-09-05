@@ -11,7 +11,7 @@
     "format": "prettier -w ./**/*.{ts,vue}"
   },
   "dependencies": {
-    "nuxt": "^3.17.5"
+    "nuxt": "^4.0.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^1.4.1",
