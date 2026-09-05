@@ -1,7 +1,7 @@
 {
   "name": "personal-page",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@11.25.0",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
